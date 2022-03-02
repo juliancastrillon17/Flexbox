@@ -1,0 +1,309 @@
+body{
+    margin: 0;
+    background: #212121;
+}
+
+.titles{
+    display: flex; 
+    margin: 0;
+}
+
+.titles div{
+    display: flex; 
+
+    flex-direction: row; 
+    align-items: center;
+    justify-content: center;
+}
+
+#menu{
+    width: 50px; 
+    padding-bottom: 6px;
+    padding-right: 5px;
+    padding-left: 10px;
+}
+
+.inicio{
+    display: flex; 
+    margin: 0;
+}
+
+.inicio div{
+    display: flex; 
+
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    height: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+}
+
+#casa{
+    padding-right: 27px;
+    padding-left: 27px;
+    width: 25px;
+    height: auto;
+}
+
+a{
+    color: white;
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+.inicio:hover{
+    background-color: #383838;
+    padding-right: 130px;
+}
+
+.explorar{
+    display: flex; 
+    margin: 0;
+}
+
+.explorar div{
+    display: flex; 
+
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    height: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+}
+
+#explorar{
+    padding-right: 25px;
+    padding-left: 29px;
+    width: 25px;
+    height: auto;
+}
+
+
+.explorar:hover{
+    background-color: #383838;
+    padding-right: 130px;
+}
+
+.shorts{
+    display: flex; 
+    margin: 0;
+}
+
+.shorts div{
+    display: flex; 
+
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center; 
+    height: 45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white; 
+}
+
+#shorts{
+    padding-right: 25px;
+    padding-left: 29px;
+    width: 25px;
+    height: auto;
+}
+
+
+.shorts:hover{
+    background-color: #383838;
+    padding-right: 130px;
+}
+
+.suscripcion{
+    display: flex;
+    margin: 0;
+}
+
+.suscripcion div{
+    display: flex; 
+
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#suscript{
+    padding-left: 29px;
+    padding-right: 25px;
+    width: 25px;
+    height: auto;
+}
+
+.suscripcion:hover{
+    background-color: #383838;
+    padding-right: 130px;
+}
+
+
+hr{
+    background-color: #383838;
+    border: none;
+    height: 2px;
+    width: 245px;
+}
+
+
+.biblioteca{
+    display: flex;
+    margin: 0;
+}
+
+.biblioteca div{
+    display: flex; 
+
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#biblio{
+    padding-left: 29px;
+    padding-right: 25px;
+    width: 25px;
+    height: auto;
+}
+
+.biblioteca:hover{
+    background-color: #383838;
+    padding-right: 130px;
+}
+
+
+.historial{
+    display: flex;
+    margin: 0;
+}
+
+.historial div{
+    display: flex; 
+
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#histo{
+    padding-left: 29px;
+    padding-right: 25px;
+    width: 25px;
+    height: auto;
+}
+
+.historial:hover{
+    background-color: #383838;
+    padding-right: 130px;
+}
+
+
+.verTarde{
+    display: flex;
+    margin: 0;
+}
+
+.verTarde div{
+    display: flex; 
+
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#ver{
+    padding-left: 29px;
+    padding-right: 25px;
+    width: 25px;
+    height: auto;
+}
+
+.verTarde:hover{
+    background-color: #383838;
+    padding-right: 130px;
+    width: 250px;
+}
+
+.likes{
+    display: flex;
+    margin: 0;
+}
+
+.likes div{
+    display: flex; 
+
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#like{
+    padding-left: 29px;
+    padding-right: 25px;
+    width: 25px;
+    height: auto;
+}
+
+.likes:hover{
+    background-color: #383838;
+    padding-right: 130px;
+    width: 250px;
+}
+
+ h2{
+    font-size: 13.5px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #AAAAAA;
+    padding-left: 29px;
+    padding-top: 3px;
+    padding-bottom: 0px;
+}
+
+.canal{
+    display: flex; 
+    margin: 0;
+    padding-bottom: 25px;
+}
+
+.canal div{
+    display: flex; 
+
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: center;
+    height: 45px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+#ceci{
+    padding-left: 29px;
+    padding-right: 21px;
+}
+
+.canal:hover{
+    background-color: #383838;
+    padding-right: 130px;
+    width: 250px;
+}
+
+
