@@ -281,7 +281,7 @@ hr{
 .canal{
     display: flex; 
     margin: 0;
-    padding-bottom: 25px;
+    height: 45px;
 }
 
 .canal div{
@@ -290,20 +290,27 @@ hr{
     flex-direction: row; 
     align-items: center; 
     justify-content: center;
-    height: 45px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: white;
+
+}
+
+
+.canal:hover{
+    background-color: #383838;
 }
 
 #ceci{
     padding-left: 29px;
-    padding-right: 21px;
+    padding-right: 25px;
+    width: 25px;
+    height: auto;
 }
 
-.canal:hover{
-    background-color: #383838;
-    padding-right: 130px;
-    width: 250px;
+.canal a{
+    padding-right: 40px;
 }
 
-
+.canales{
+    padding-bottom: 70px;
+}

@@ -2,3 +2,162 @@ body{
     margin: 0;
     background: #212121;
 }
+
+.contenedor1{
+    display:flex;
+    margin: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+     
+    padding-top: 10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#barra{
+    padding-left: 110px;
+}
+
+#Barra{
+    background-color: #181818;
+    border: solid 2px;
+    border-color:  #383838;
+    height: 30px;
+    width: 500px;
+    color: white;
+    
+}
+
+
+#Barra::placeholder{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#separador{
+    border: none; 
+    background-color: #383838;
+    height: 1px;
+}
+
+.options{
+    display: flex;
+    margin: 0; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: flex-start;
+    padding-top: 5px;
+}
+
+
+.options div{
+    padding-top: 10px;
+    padding-right: 50px;
+    
+}
+
+.options a{
+    text-decoration: none; 
+    color: white; 
+
+}
+
+.todo{
+    padding-left: 25px;
+    margin-left: 25px;
+    margin-right: 30px;
+
+    background: #383838;
+    height: 30px;
+    width: 5px;
+    border-radius: 50px;
+}
+
+.todo:hover{
+    background-color: #585858;
+}
+
+.mixes{
+    padding-left: 20px;
+    margin-right: 30px;
+
+    background: #383838;
+    height: 30px;
+    width: 10px;
+    border-radius: 50px;
+}
+
+.mixes:hover{
+    background-color: #585858;
+}
+
+
+.listas{
+    padding-left: 20px;
+    margin-right: 30px;
+
+    background: #383838;
+    height: 30px;
+    width: 7px;
+    border-radius: 50px;
+}
+
+.listas:hover{
+    background-color: #585858;
+}
+
+.paginas{
+    padding-left: 20px;
+    margin-right: 30px;
+
+    background: #383838;
+    height: 30px;
+    width: 20px;
+    border-radius: 50px;
+}
+
+.paginas:hover{
+    background-color: #585858;
+}
+
+.musica{
+    padding-left: 20px;
+    margin-right: 30px;
+
+    background: #383838;
+    height: 30px;
+    width: 15px;
+    border-radius: 50px;
+}
+
+.musica:hover{
+    background-color: #585858;
+}
+
+.ventas{
+    padding-left: 20px;
+    margin-right: 30px;
+
+    background: #383838;
+    height: 30px;
+    width: 13px;
+    border-radius: 50px;
+}
+
+.ventas:hover{
+    background-color: #585858;
+}
+
+.latino{
+    padding-left: 45px;
+
+    background: #383838;
+    height: 30px;
+    width: 73px;
+    border-radius: 50px;
+}
+
+.latino:hover{
+    background-color: #585858;
+}
