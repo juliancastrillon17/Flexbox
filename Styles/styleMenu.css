@@ -314,3 +314,11 @@ hr{
 .canales{
     padding-bottom: 70px;
 }
+
+footer{
+    color: #AAAAAA; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    padding-top: 100px;
+    text-align: center;
+}
